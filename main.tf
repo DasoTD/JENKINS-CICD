@@ -43,7 +43,7 @@ module "lb_target_group" {
   vpc_id                   = module.networking.capstoneJenkins_vpc_id
   ec2_instance_id          = module.jenkins.jenkins_ec2_instance_id
 }
-/*
+
 module "alb" {
   source                    = "./modules/load-balancer"
   lb_name                   = "capstoneJenkins-alb"
@@ -76,4 +76,4 @@ module "aws_ceritification_manager" {
   hosted_zone_id = module.hosted_zone.hosted_zone_id
 }
 
-*/
+

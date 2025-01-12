@@ -1,3 +1,4 @@
 *.terraform
 terraform.tfvars
-terraform.tfstatet
+terraform.tfstate
+*.tfstate
